@@ -98,36 +98,34 @@
 }
 
 .button {
-  background-color: #4caf50;
-  color: #ffffff;
+  background-color: white;
+  color: #4caf50;
   border: none;
   padding: 0.75rem 1.5rem;
   font-size: 1rem;
   cursor: pointer;
+  width: 200px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.399);
   transition: background-color 0.3s ease;
 }
 
 .button:hover {
   background-color: #45a049;
-}
-
-.button {
-  background-color: #4caf50;
-  color: #ffffff;
-  border: none;
-  padding: 0.75rem 1.5rem;
-  font-size: 1rem;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.button:hover {
-  background-color: #45a049;
+  color: white;
 }
 
 .services,
 .location {
   padding: 4rem 0;
+}
+
+.location {
+  background-color: #4caf50;
+}
+
+.location .locationInfo .infoItem {
+  color: #ffffff;
 }
 
 .services {
@@ -142,7 +140,7 @@
 
 .sectionContent h2 {
   font-size: 2.5rem;
-  color: #1b5e20;
+  color: black;
   text-align: center;
   margin-bottom: 2rem;
 }
@@ -167,7 +165,7 @@
 
 .serviceImage {
   width: 100%;
-  height: 200px;
+  height:250px;
   object-fit: cover;
 }
 
@@ -175,14 +173,23 @@
   padding: 1rem;
 }
 
-.serviceInfo h3 {
-  font-size: 1.25rem;
-  margin-bottom: 0.5rem;
+.serviceInfoContent .serviceName {
+  font-size: 25px;
 }
 
-.serviceInfo span {
-  font-weight: bold;
+.serviceInfoContent .servicePrice {
+  font-size: 25px;
   color: #4caf50;
+  font-weight: bold;
+
+}
+
+.serviceInfoContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9rem;
 }
 
 .locationGrid {
@@ -221,9 +228,13 @@
 }
 
 .buttonIcon {
-  width: 20px;
-  height: 20px;
-  margin-right: 0.5rem;
+  width: 100px;
+  height: 1px;
+}
+
+.button span a {
+  text-decoration: none;
+  color: #4caf50;
 }
 
 .footer {
@@ -231,6 +242,10 @@
   color: #ffffff;
   text-align: center;
   padding: 1.5rem 0;
+}
+.footerBox {
+  padding: 20px;
+  text-align: center;
 }
 
 @media (max-width: 768px) {
@@ -249,6 +264,10 @@
 
   .locationGrid {
     grid-template-columns: 1fr;
+  }
+
+  .button {
+    margin: 0 auto;
   }
 }
 

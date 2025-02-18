@@ -8,85 +8,85 @@ const services = [
   {
     name: 'Sobrancelha',
     price: 'R$ 10',
-    image: '/api/placeholder/300/200',
+    image: 'src/assets/sobrancelha-ramos.jpeg',
     category: 'normal'
   },
   {
     name: 'Barboteapia',
     price: 'R$ 20',
-    image: '/api/placeholder/300/200',
+    image: 'src/assets/barboterapia.jpeg',
     category: 'normal'
   },
   {
     name: 'Corte Degradê',
     price: 'R$ 20',
-    image: '/api/placeholder/300/200',
+    image: 'src/assets/corte-normal.png',
     category: 'normal'
   },
   {
     name: 'Corte Infantil(até 10 anos)',
     price: 'R$ 18',
-    image: '/api/placeholder/300/200',
+    image: 'src/assets/corte-kids.png',
     category: 'normal'
   },
   {
     name: 'Corte Simples',
     price: 'R$ 18',
-    image: '/api/placeholder/300/200',
+    image: 'src/assets/corte-simples2.jpeg',
     category: 'normal'
   },
   {
     name: 'Hidratação',
     price: 'R$ 10',
-    image: '/api/placeholder/300/200',
+    image: 'src/assets/hidra.png',
     category: 'normal'
   },
   {
     name: 'Corte + Sobrancelha',
     price: 'R$ 25',
-    image: '/api/placeholder/300/200',
+    image: 'src/assets/corte+sobrancelha.jpeg',
     category: 'normal'
   },
   {
     name: 'Barba',
     price: 'R$ 15',
-    image: '/api/placeholder/300/200',
+    image: 'src/assets/barbinha.png',
     category: 'normal'
   },
   {
     name: 'Corte + Barba',
     price: 'R$ 70',
-    image: '/api/placeholder/300/200',
+    image: 'src/assets/barba.jpeg',
     category: 'premium'
   },
   {
     name: 'Corte Degradê + Barba',
     price: 'R$ 40',
-    image: '/api/placeholder/300/200',
+    image: 'src/assets/corte-barba.png',
     category: 'premium'
   },
   {
-    nama: 'Corte Simples + Barba',
+    name: 'Corte Simples + Barba',
     price: 'R$ 38',
-    image: '/api/placeholder/300/200',
+    image: 'src/assets/simples+barba.png',
     category: 'premium'
   },
   {
     name: 'Corte + Sobrancelha',
     price: 'R$ 25',
-    image: '/api/placeholder/300/200',
+    image: 'src/assets/corte+barba.png',
     category: 'vip'
   },
   {
     name: 'Barboterapia + Sobrancelha',
     price: 'R$ 25',
-    image: '/api/placeholder/300/200',
+    image: 'src/assets/barboterapia.jpeg',
     category: 'vip'
   },
   {
     name: 'Barboterapia + Pezinho',
     price: 'R$ 25',
-    image: '/api/placeholder/300/200',
+    image: 'src/assets/barba-5.png',
     category: 'vip'
   }
 ];
@@ -103,9 +103,9 @@ const Home = () => {
             className="serviceImage"
           />
           <CardContent className="serviceInfo">
-            <div>
-              <h3>{service.name}</h3>
-              <span>{service.price}</span>
+            <div className="serviceInfoContent">
+              <h3 className="serviceName">{service.name}</h3>
+              <span className="servicePrice">{service.price}</span>
             </div>
           </CardContent>
         </Card>
@@ -180,26 +180,33 @@ const Home = () => {
                 <MapPin className="icon" />
                 <div>
                   <h3>Endereço</h3>
-                  <p>Rua da Barbearia, 123 - Centro</p>
-                  <p>São Paulo - SP</p>
+                  <p>📍 Rua Olimpio Avila - Bairro Senhor do Bonfim</p>
+                  <p>📍 Penedo - AL</p>
                 </div>
               </div>
               <div className="infoItem">
                 <Clock className="icon" />
                 <div>
                   <h3>Horário de Funcionamento</h3>
-                  <p>Segunda a Sábado: 8h às 18h</p>
-                  <p>Domingo: Fechado</p>
+                  <p>⏰ Segunda a Sábado: 8h às 18h</p>
+                  <p>❌ Domingo: Fechado</p>
                 </div>
               </div>
               <button className="button">
-                <Scissors className="buttonIcon" />
-                <span>Agende seu Horário</span>
+                <span>
+                  <a href="https://api.whatsapp.com/send?phone=5582998239226">
+                    Agende agora
+                  </a>
+                </span>
               </button>
             </div>
           </div>
         </div>
       </section>
+
+      <footer className="footerBox">
+        <span>Desenvolvido por Liedson - 2025</span>
+      </footer>
     </div>
   );
 };

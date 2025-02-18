@@ -1,36 +1,71 @@
-.header {
+.headerBox {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 5px 10px; /* Ajuste o padding para reduzir a altura */
-  background-color: #4caf50;
-  height: 50px; /* Defina uma altura fixa menor */
+  background-color: white;
+  height: 60px;
+  padding: 0 20px;
+}
+
+.headerBox .title {
+  color: black;
 }
 
 .logo {
-  flex: 1;
   text-align: left;
 }
 
 .icon-logo {
-  width: 80px; /* Reduza a largura do logo se necessário */
+  width: 80px;
 }
 
 .title {
-  flex: 2;
   text-align: center;
   color: #fff;
-  font-size: 1.2rem; /* Ajuste o tamanho da fonte se necessário */
+  font-size: 1.8rem;
 }
 
-.button {
-  flex: 1;
+.buttonHeader {
   text-align: center;
-  width: 80px; /* Reduza a largura do botão se necessário */
+  width: 150px;
   padding: 5px;
   border: none;
-  border-radius: 5px;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.446);
   cursor: pointer;
-  font-size: 0.9rem; /* Ajuste o tamanho da fonte se necessário */
+  font-size: 0.9rem;
+  background-color: #4caf50;
+  color: white;
+}
+
+.buttonHeader a {
+  text-decoration:none;
+  color:white
+}
+
+@media (max-width: 600px) {
+  .headerBox {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .logo, .buttonHeader {
+    flex: none;
+    text-align: center;
+    margin: 5px 0;
+  }
+
+  .title {
+    display: none;
+  }
+
+  .icon-logo {
+    max-width: 80px;
+  }
+
+  .buttonHeader {
+    width: 50%;
+  }
 }
