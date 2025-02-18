@@ -7,85 +7,85 @@ const services = [
   {
     name: 'Sobrancelha',
     price: 'R$ 10',
-    image: 'src/assets/sobrancelha-ramos.jpeg',
+    image: 'public/images/sobrancelha-ramos.jpeg',
     category: 'normal'
   },
   {
     name: 'Barboteapia',
     price: 'R$ 20',
-    image: 'src/assets/barboterapia.jpeg',
+    image: 'public/images/barboterapia.jpeg',
     category: 'normal'
   },
   {
     name: 'Corte Degradê',
     price: 'R$ 20',
-    image: 'src/assets/corte-normal.png',
+    image: 'public/images/corte-normal.png',
     category: 'normal'
   },
   {
     name: 'Corte Infantil(até 10 anos)',
     price: 'R$ 18',
-    image: 'src/assets/corte-kids.png',
+    image: 'public/images/corte-kids.png',
     category: 'normal'
   },
   {
     name: 'Corte Simples',
     price: 'R$ 18',
-    image: 'src/assets/corte-simples2.jpeg',
+    image: 'public/images/corte-simples2.jpeg',
     category: 'normal'
   },
   {
     name: 'Hidratação',
     price: 'R$ 10',
-    image: 'src/assets/hidra.png',
+    image: 'public/images/hidra.png',
     category: 'normal'
   },
   {
     name: 'Corte + Sobrancelha',
     price: 'R$ 25',
-    image: 'src/assets/corte+sobrancelha.jpeg',
+    image: 'public/images/corte+sobrancelha.jpeg',
     category: 'normal'
   },
   {
     name: 'Barba',
     price: 'R$ 15',
-    image: 'src/assets/barbinha.png',
+    image: 'public/images/barbinha.png',
     category: 'normal'
   },
   {
     name: 'Corte + Barba',
     price: 'R$ 70',
-    image: 'src/assets/barba.jpeg',
+    image: 'public/images/barba.jpeg',
     category: 'premium'
   },
   {
     name: 'Corte Degradê + Barba',
     price: 'R$ 40',
-    image: 'src/assets/corte-barba.png',
+    image: 'public/images/corte-barba.png',
     category: 'premium'
   },
   {
     name: 'Corte Simples + Barba',
     price: 'R$ 38',
-    image: 'src/assets/simples+barba.png',
+    image: 'public/images/simples+barba.png',
     category: 'premium'
   },
   {
     name: 'Corte + Sobrancelha',
     price: 'R$ 25',
-    image: 'src/assets/corte+barba.png',
+    image: 'public/images/corte+barba.png',
     category: 'vip'
   },
   {
     name: 'Barboterapia + Sobrancelha',
     price: 'R$ 25',
-    image: 'src/assets/barboterapia.jpeg',
+    image: 'public/images/barboterapia.jpeg',
     category: 'vip'
   },
   {
     name: 'Barboterapia + Pezinho',
     price: 'R$ 25',
-    image: 'src/assets/barba-5.png',
+    image: 'public/images/barba-5.png',
     category: 'vip'
   }
 ];
@@ -119,7 +119,7 @@ const Home = () => {
       <section className="hero">
         <div>
           <img
-            src="src/assets/foto1.png"
+            src="public/images/foto1.png"
             alt="Barbearia"
           />
         </div>
