@@ -1,6 +1,5 @@
-import React from 'react';
 import Header from '../components/Header/Header';
-import { MapPin, Clock, Scissors } from 'lucide-react';
+import { MapPin, Clock } from 'lucide-react';
 import { Card, CardContent } from '../components/Card/Card';
 import './Home.css';
 
