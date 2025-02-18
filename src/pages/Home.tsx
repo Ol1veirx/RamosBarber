@@ -41,18 +41,6 @@ const services = [
     category: 'normal'
   },
   {
-    name: 'Corte + Sobrancelha',
-    price: 'R$ 25',
-    image: 'images/corte+sobrancelha.jpeg',
-    category: 'normal'
-  },
-  {
-    name: 'Barba',
-    price: 'R$ 15',
-    image: 'images/barbinha.png',
-    category: 'normal'
-  },
-  {
     name: 'Corte + Barba',
     price: 'R$ 70',
     image: 'images/barba.jpeg',
@@ -61,7 +49,7 @@ const services = [
   {
     name: 'Corte Degradê + Barba',
     price: 'R$ 40',
-    image: 'images/corte-barba.png',
+    image: 'images/jhon.jpeg',
     category: 'premium'
   },
   {
@@ -85,7 +73,7 @@ const services = [
   {
     name: 'Barboterapia + Pezinho',
     price: 'R$ 25',
-    image: 'images/barba-5.png',
+    image: 'images/barbinha.png',
     category: 'vip'
   }
 ];
