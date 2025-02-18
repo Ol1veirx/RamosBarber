@@ -42,7 +42,7 @@ const services = [
   },
   {
     name: 'Corte + Barba',
-    price: 'R$ 70',
+    price: 'R$ 40',
     image: 'images/barba.jpeg',
     category: 'premium'
   },
