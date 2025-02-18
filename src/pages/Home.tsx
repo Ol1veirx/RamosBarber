@@ -181,7 +181,9 @@ const Home = () => {
               </div>
               <button className="button">
                 <span>
-                  <a href="https://api.whatsapp.com/send?phone=5582998239226">
+                  <a
+                  href="https://api.whatsapp.com/send?phone=5582998239226&text=Olá, gostaria de agendar um horário."
+                  target="_blank">
                     Agende agora
                   </a>
                 </span>

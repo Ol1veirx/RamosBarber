@@ -9,7 +9,10 @@ const Header: React.FC = () => {
       </div>
       <div className='title'>💈</div>
       <button className='buttonHeader'>
-        <a href="https://api.whatsapp.com/send?phone=5582998239226">
+        <a
+        href="https://api.whatsapp.com/send?phone=5582998239226&text=Olá, gostaria de agendar um horário."
+        target="_blank"
+        >
           Agende agora
         </a>
       </button>
