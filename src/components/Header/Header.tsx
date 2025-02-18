@@ -5,7 +5,7 @@ const Header: React.FC = () => {
   return (
     <header className='headerBox'>
       <div className='logo'>
-        <img className="icon-logo" src="public/images/logo-ramos.jpeg" />
+        <img className="icon-logo" src="images/logo-ramos.jpeg" />
       </div>
       <div className='title'>💈</div>
       <button className='buttonHeader'>
