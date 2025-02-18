@@ -1,0 +1,14 @@
+/* Global Styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.min-h-screen {
+  min-height: 100vh;
+}
+
+.bg-white {
+  background-color: white;
+}

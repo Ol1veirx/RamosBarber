@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px; /* Ajuste o padding para reduzir a altura */
+  background-color: #4caf50;
+  height: 50px; /* Defina uma altura fixa menor */
+}
+
+.logo {
+  flex: 1;
+  text-align: left;
+}
+
+.icon-logo {
+  width: 80px; /* Reduza a largura do logo se necessário */
+}
+
+.title {
+  flex: 2;
+  text-align: center;
+  color: #fff;
+  font-size: 1.2rem; /* Ajuste o tamanho da fonte se necessário */
+}
+
+.button {
+  flex: 1;
+  text-align: center;
+  width: 80px; /* Reduza a largura do botão se necessário */
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  font-size: 0.9rem; /* Ajuste o tamanho da fonte se necessário */
+}
